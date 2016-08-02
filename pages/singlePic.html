@@ -5,7 +5,20 @@
 	<title>单张图片上传预览</title>
 </head>
 <body>
-	<div></div>
-	
+	<div id="pic">
+		<img id="preview" src="../imgs/default.jpeg">
+	</div>
+	<input type="file" id="uploadBtn" name="" onchange="setPreviewPic()">
+
+	<script type="text/javascript" src="../js/singlePic.js"></script>
+	<script>
+		var fileObj=document.getElementById('uploadBtn');
+		var preview=document.getElementById('preview');
+		var picWrap=document.getElementById('pic');
+		fileObj.onchange=function(){
+		setPreviewPic(fileObj,preview,picWrap,200,250);	
+		}
+		
+	</script>
 </body>
 </html>
