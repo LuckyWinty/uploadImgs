@@ -16,7 +16,9 @@
 		var preview=document.getElementById('preview');
 		var picWrap=document.getElementById('pic');
 		fileObj.onchange=function(){
-		setPreviewPic(fileObj,preview,picWrap,200,250);	
+			var obj=new SetPreviewPic(fileObj,preview,picWrap,1000);
+			// obj.uploadSinglePic(200,250);
+			obj.uploadPics(200,250,9);
 		}
 		
 	</script>
