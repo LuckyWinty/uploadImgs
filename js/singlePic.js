@@ -16,7 +16,7 @@
  		if(this.fileObj.files && this.fileObj.files[0]){
       //判断图片格式是否正确
       if(this.pattern.test(fileObj.files[0].name)){
-      	if(judgeSize(fileObj.files[0].size/1024),this.maxImgSize){
+      	if(judgeSize(fileObj.files[0].size/1024,this.maxImgSize)){
         //火狐下，直接设置img的样式
         this.preview.style.display='block';
         this.preview.style.width=width+'px';
