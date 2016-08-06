@@ -3,12 +3,10 @@ This plugin is using to preview imgs when we upload !
 
 #HTML Structrue
 
-<pre>
 	<div id="pic">
 		<img id="preview" src="../imgs/default.jpeg">
 	</div>
 	<input type="file" id="uploadBtn" accept="image/*" onchange="setPreviewPic()">
-</pre>
 
 #Parameter configuration
 
@@ -20,7 +18,6 @@ This plugin is using to preview imgs when we upload !
 ######height//照片显示的高度
 
 #Usage
-<pre>
 	<script type="text/javascript" src="../js/singlePic.js"></script>
 	<script>
 		var fileObj=document.getElementById('uploadBtn');
@@ -32,4 +29,3 @@ This plugin is using to preview imgs when we upload !
 			// obj.uploadPics(200,250,2);
 		}
 	</script>
-</pre>
