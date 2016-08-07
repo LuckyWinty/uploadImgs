@@ -87,7 +87,7 @@ SetPreviewPic.prototype.uploadPics=function(width,height,maxPics,maxSize){
           }
       }else{
         //IE下
-        var nums=this.picWrap.childNodes.length;
+        var nums=this.picWrap.childNodes.length;  //IE6以下不支持querySelectAll属性，因此用这个来判断
 
         if(nums<maxPics+2){
         	this.fileObj.select();
