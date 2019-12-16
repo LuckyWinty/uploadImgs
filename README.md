@@ -10,12 +10,12 @@ This plugin is using to preview imgs when we upload !
 ```
 #Parameter configuration
 
-######fileObj,  //上传图片的input按钮
-######preview,  //img标签
-######picWrap, //包裹着img的div
-######maxImgSize, //最大的单张照片的值，单位为KB
-######width,//照片显示的宽度
-######height//照片显示的高度
+### fileObj,  //上传图片的input按钮
+### preview,  //img标签
+### picWrap, //包裹着img的div
+### maxImgSize, //最大的单张照片的值，单位为KB
+### width,//照片显示的宽度
+### height//照片显示的高度
 
 #Usage
 ```js
